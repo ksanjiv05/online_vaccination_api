@@ -2,11 +2,43 @@
   text-align: center;
 }
 
+.container {
+  margin-top: 51px;
+}
+.login_form {
+  padding: 0% 23% 0% 23%;
+  height: 575px;
+}
+.login_background_image {
+  background-image: url("./static/images/Ontario-failed-to-build-a-reliable-vaccination-tracking-system-and-for-now-uses-the-honour-system-Star-investigation-finds.jpg");
+  width: 100%;
+  height: 600px;
+}
+.login_background {
+  /* background-image: url("./static/images/Ontario-failed-to-build-a-reliable-vaccination-tracking-system-and-for-now-uses-the-honour-system-Star-investigation-finds.jpg"); */
+  background-color: #2f2f2f91;
+  width: 50%;
+  float: left;
+  height: 100%;
+  padding-top: 10%;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  color: aliceblue;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.sliderImage {
+  width: 100%;
+}
+.carousel-inner > .item > img {
+  height: 650px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +67,163 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* side navbar */
+.side-nav {
+  background-color: #1a237e;
+  width: 15%;
+  height: 600px;
+  float: left;
+  box-sizing: border-box;
+}
+.dock-nav {
+  width: 100%;
+  border-bottom: 1px solid;
+  color: aliceblue;
+}
+.dock-nav > a {
+  color: white;
+}
+.dock-nav > a:hover {
+  background-color: #3c3c3e;
+}
+.dashboard-space {
+  width: 85%;
+  height: 600px;
+  background-color: aliceblue;
+  float: left;
+  padding: 12px;
+}
+
+/**/
+.dashboard-profile {
+  background-color: antiquewhite;
+  border-radius: 96px;
+  width: 200px;
+  height: 200px;
+}
+
+.profile-details {
+  background-color: #c7c7c7;
+  padding-top: 87px;
+  padding-bottom: 43px;
+  width: 400px;
+}
+.profile-img {
+  height: 108px;
+}
+.profile {
+  background-color: #4b6565;
+  padding: 28px;
+}
+
+.dashboard-background {
+  background-color: #4b6565;
+  padding-top: 14%;
+  height: 100%;
+}
+.dashboard-containt {
+  width: 60%;
+  background-color: #c7c7c7;
+  padding: 10%;
+}
+.vacc-div {
+  width: 100%;
+  height: 59px;
+  background-color: #2697a2;
+  overflow: hidden;
+  margin-top: 7px;
+  padding: 0px 0px 0px 15px;
+  border-radius: 15px;
+}
+.vacc-div-ex {
+  width: 100%;
+  height: 300px;
+  background-color: #2697a2;
+  overflow: hidden;
+  margin-top: 7px;
+  padding: 10px 15px 0px 15px;
+  border-radius: 15px;
+}
+
+.vacc-font {
+  line-height: 20px;
+  font-family: inherit;
+  font-size: 22px;
+  color: white;
+}
+.vacc-background {
+  background-color: #4b6565;
+  padding: 22px;
+  height: 100%;
+}
+
+.nav-tabs > li > a {
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 2px;
+  line-height: 1.42857143;
+  padding: 12px 35px 8px 35px;
+  border: 1px solid transparent;
+  border-radius: 9px 9px 0px 0px;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: bold;
+  /* border: none; */
+  background-color: #2697a2;
+  padding: 12px 35px 8px 35px;
+  border-radius: 9px 9px 0px 0px;
+}
+.nav > li > a:hover {
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: bold;
+  /* border: none; */
+  background-color: #4f8080;
+  padding: 12px 35px 8px 35px;
+  border-radius: 11px 9px 0px 0px;
+}
+.badge-ext {
+  margin-left: 9px;
+  background-color: #e00f0f;
+  font-size: 21px;
+}
+.badge-date {
+  float: right;
+  margin: -48px 50px 5px 2px;
+  padding: 12px;
+  font-size: 19px;
+  background-color: #92590e;
+}
+.status-badge {
+  background-color: green;
+  padding: 6px 10px 9px 8px;
+}
+.status-icon {
+  margin-right: 8px;
+  padding: 3px;
+  background-color: white;
+  color: green;
+  border-radius: 7px;
+}
+.vacc-title {
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: bold;
+}
+.vacc-timeperiod {
+  padding: 10px 10px 10px 10px;
+  background-color: #92590e;
+}
+th {
+  font-family: cursive;
+  font-size: 21px;
+  color: whitesmoke;
 }
