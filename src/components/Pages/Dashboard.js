@@ -43,9 +43,6 @@ const Dashboard = (props) => {
           <Route path="/dashboard/changepwd">
             <ChangePassword />
           </Route>
-          {/* <Route path="/">
-            <Profile />
-          </Route> */}
           <Route path="/dashboard/profile">
             <Profile />
           </Route>
@@ -54,6 +51,9 @@ const Dashboard = (props) => {
           </Route>
           <Route path="/dashboard/vaccination">
             <Vaccination />
+          </Route>
+          <Route path="/">
+            <Profile />
           </Route>
         </Switch>
         {/* <WrappedComponent /> */}

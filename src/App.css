@@ -181,15 +181,14 @@ label {
   padding: 12px 35px 8px 35px;
   border-radius: 9px 9px 0px 0px;
 }
-.nav > li > a:hover {
+/* .nav > li > a:hover {
   color: aliceblue;
   font-size: 18px;
   font-weight: bold;
-  /* border: none; */
   background-color: #4f8080;
   padding: 12px 35px 8px 35px;
   border-radius: 11px 9px 0px 0px;
-}
+} */
 .badge-ext {
   margin-left: 9px;
   background-color: #e00f0f;
@@ -226,4 +225,65 @@ th {
   font-family: cursive;
   font-size: 21px;
   color: whitesmoke;
+}
+/*///////////////////////////////*/
+.reminders {
+  width: 100%;
+  height: 383px;
+  background-color: #2697a2;
+  overflow: hidden;
+  margin-top: 7px;
+  padding: 10px 15px 0px 15px;
+  border-radius: 15px;
+}
+.memo-left {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding-right: 14px;
+}
+.memo-right {
+  width: 50%;
+  float: right;
+}
+.memo-title {
+  display: block;
+  width: 99%;
+  padding: 4px;
+  border-radius: 5px;
+}
+.memo {
+  width: 99%;
+  height: 110px;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 4px;
+}
+.date {
+  display: block;
+  width: 100%;
+
+  padding: 4px;
+  border-radius: 5px;
+}
+.time {
+  display: block;
+  width: 100%;
+  padding: 4px;
+  border-radius: 5px;
+  margin-top: 4px;
+}
+.place {
+  margin-top: 4px;
+  display: block;
+  width: 100%;
+  padding: 4px;
+  border-radius: 5px;
+}
+/*footer*/
+.footer {
+}
+.btn-reminder {
+  width: 100%;
+  margin-top: 3px;
 }
