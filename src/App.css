@@ -287,3 +287,36 @@ th {
   width: 100%;
   margin-top: 3px;
 }
+.navbar-container-collasp {
+  display: none;
+}
+@media only screen and (min-width: 350px) and (max-width: 869px) {
+  .container {
+    margin-top: -20px;
+  }
+  .profile {
+  }
+  .dashboard-space {
+    width: 100%;
+  }
+  .profile-details {
+    width: 100%;
+  }
+  .login_background {
+    width: 100%;
+  }
+  .side-nav {
+    display: none;
+  }
+
+  /*///////*/
+  .navbar {
+    border-radius: 0px;
+  }
+  .navbar-container {
+    display: none;
+  }
+  .navbar-container-collasp {
+    display: block;
+  }
+}
