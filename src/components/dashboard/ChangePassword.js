@@ -60,13 +60,13 @@ export default function ChangePassword({ value }) {
                 name="cpwd"
                 onChange={(ev) => changeHandler(ev)}
               />
-              <br />
-              <input
-                type="submit"
-                className="btn btn-success form-control"
-                value="Change Password"
-              />
             </div>
+            <br />
+            <input
+              type="submit"
+              className="btn btn-success form-control"
+              value="Change Password"
+            />
           </form>
         </div>
       </center>

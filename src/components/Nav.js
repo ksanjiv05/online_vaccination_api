@@ -107,9 +107,35 @@ export default function Nav() {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink exact to="/dashboard">
-                    Dashboard
+                  <NavLink
+                    exact
+                    to="/dashboard"
+                    className="dropdown-toggle"
+                    data-toggle="dropdown">
+                    Dashboard<span class="caret"></span>
                   </NavLink>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <NavLink exact to="/dashboard/profile">
+                        Profile
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink exact to="/dashboard/vaccination">
+                        Vaccination
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink exact to="/dashboard/reminder">
+                        Reminder
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink exact to="/dashboard/changepwd">
+                        Change Password
+                      </NavLink>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <NavLink exact to="/help">
