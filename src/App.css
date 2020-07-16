@@ -290,6 +290,12 @@ th {
 .navbar-container-collasp {
   display: none;
 }
+.new-applicant {
+  margin-bottom: 3px;
+}
+.input-group {
+  margin-top: 3px;
+}
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .container {
     margin-top: -20px;
