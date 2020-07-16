@@ -4,7 +4,7 @@ import VaccinationContaintBody from "./VaccinationContaintBody";
 
 const VaccinationTab = () => {
   return (
-    <div className="vacc-background">
+    <div className="vacc-background-spl">
       <ul className="nav nav-tabs">
         <VaccinationContaint
           herfid="home"

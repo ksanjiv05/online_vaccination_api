@@ -13,7 +13,7 @@ const Vaccination = () => {
         <>
           <div className="new-applicant">
             <button
-              className="btn btn-success form-control"
+              className="btn btn-primary form-control"
               onClick={() => setTabState(false)}>
               <span class="glyphicon glyphicon-arrow-left"></span> Back To Main
             </button>

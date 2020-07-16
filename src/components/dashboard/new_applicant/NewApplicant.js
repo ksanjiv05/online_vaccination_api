@@ -4,7 +4,7 @@ const NewApplicant = () => {
   const handleSubmit = () => {};
   const changeHandler = (ev) => {};
   return (
-    <div className="dashboard-background">
+    <div className="dashboard-background-spl">
       <center>
         <div className="dashboard-containt">
           <form onSubmit={(ev) => handleSubmit(ev)}>

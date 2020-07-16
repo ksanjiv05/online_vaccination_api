@@ -158,6 +158,16 @@ label {
   padding: 22px;
   height: 100%;
 }
+.vacc-background-spl {
+  background-color: #4b6565;
+  padding: 22px;
+}
+.dashboard-background-spl {
+  background-color: #4b6565;
+  /* padding-top: 14%; */
+  /* height: 100%; */
+  padding: 5%;
+}
 
 .nav-tabs > li > a {
   color: aliceblue;
