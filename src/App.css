@@ -385,6 +385,12 @@ th {
   .container {
     margin-top: -20px;
   }
+  .dashboard-space {
+    width: 100%;
+  }
+  .side-nav {
+    display: none;
+  }
   .navbar-container {
     display: none;
   }
